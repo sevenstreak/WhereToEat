@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhereToEat" x:Class="WhereToEat.MainPage">
+    <StackLayout VerticalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+        <Button Clicked="searchBtn" 
+               Text="Where should we eat?"
+               
+                />
+        
+      <!--  <ListView
+            x:Name="venueList"
+            HorizontalOptions="Center">
+            <ListView.ItemTemplate>
+                <ViewCell>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </ViewCell>
+            </ListView.ItemTemplate>
+        </ListView>
+        -->
+    </StackLayout>
+</ContentPage>
