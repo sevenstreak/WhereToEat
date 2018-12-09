@@ -29,19 +29,12 @@ namespace WhereToEat.Model
         public string address { get; set; }
     }
 
-    public class Icon
-    {
-        public string prefix { get; set; }
-        public string suffix { get; set; }
-    }
-
     public class Category
     {
         public string id { get; set; }
         public string name { get; set; }
         public string pluralName { get; set; }
         public string shortName { get; set; }
-        public Icon icon { get; set; }
         public bool primary { get; set; }
     }
 
@@ -51,7 +44,12 @@ namespace WhereToEat.Model
         public string name { get; set; }
         public Location location { get; set; }
         public IList<Category> categories { get; set; }
+
+    public static implicit operator List<object>(Venue v)
+    {
+        throw new NotImplementedException();
     }
+}
 
     public class Response
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Plugin.Geolocator;
 using WhereToEat.Logic;
-
+using WhereToEat.Model;
 
 
 namespace WhereToEat
@@ -16,30 +16,34 @@ namespace WhereToEat
         public MainPage()
         {
             InitializeComponent();
+
+
         }
 
         protected override async void OnAppearing()
         {
 
-            base.OnAppearing();
+          //  base.OnAppearing();
 
-            var locator = CrossGeolocator.Current;
-            var position = await locator.GetPositionAsync();
+         //   var locator = CrossGeolocator.Current;
+         //   var position = await locator.GetPositionAsync();
 
-            var venues = WhereToEat.Logic.VenueLogic.GetVenues(position.Latitude, position.Longitude);
+        //    var venues = await VenueLogic.GetVenues(position.Longitude, position.Latitude);
             
 
         }
 
         async void searchBtn(object sender, System.EventArgs e)
         {
-
+        
             var locator = CrossGeolocator.Current;
             var position = await locator.GetPositionAsync();
 
-            var venues = VenueLogic.GetVenues(position.Longitude, position.Latitude);
+            var venues = await VenueLogic.GetVenues(position.Latitude, position.Longitude);
 
-
+            var rdm = new Random();
+            venues = venues.GetRange(rdm.Next(0,29),1);
+            venueList.ItemsSource = venues;
         }
     }
 }

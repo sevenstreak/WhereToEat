@@ -1,17 +1,20 @@
 ﻿<Properties StartupConfiguration="{57517D63-1D12-4450-9D93-966AB7D90AB8}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="WhereToEat Status">
     <Files>
-      <File FileName="WhereToEat/MainPage.xaml.cs" Line="42" Column="13" />
-      <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml.cs" Line="44" Column="49" />
-      <File FileName="WhereToEat/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="../TravelRecordApp/TravelRecordApp/Model/Venue.cs" Line="13" Column="119" />
-      <File FileName="WhereToEat/Model/Venue.cs" Line="49" Column="5" />
-      <File FileName="WhereToEat/Helper/Constants.cs" Line="6" Column="131" />
+      <File FileName="WhereToEat/MainPage.xaml.cs" Line="20" Column="13" />
+      <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml.cs" Line="72" Column="33" />
+      <File FileName="../TravelRecordApp/TravelRecordApp/Model/Venue.cs" Line="13" Column="162" />
+      <File FileName="WhereToEat/Model/Venue.cs" Line="13" Column="141" />
+      <File FileName="WhereToEat/Helper/Constants.cs" Line="6" Column="181" />
       <File FileName="../TravelRecordApp/TravelRecordApp/Helper/Constants.cs" Line="6" Column="98" />
-      <File FileName="../TravelRecordApp/TravelRecordApp/Logic/VenueLogic.cs" Line="11" Column="32" />
-      <File FileName="WhereToEat/Logic/VenueLogic.cs" Line="26" Column="14" />
-      <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml" Line="22" Column="27" />
-      <File FileName="WhereToEat/MainPage.xaml" Line="31" Column="12" />
+      <File FileName="../TravelRecordApp/TravelRecordApp/Logic/VenueLogic.cs" Line="20" Column="65" />
+      <File FileName="WhereToEat/Logic/VenueLogic.cs" Line="46" Column="52" />
+      <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml" Line="37" Column="64" />
+      <File FileName="WhereToEat/MainPage.xaml" Line="11" Column="12" />
+      <File FileName="Source Not Available" />
+      <File FileName="WhereToEat.iOS/Main.cs" Line="15" Column="47" />
+      <File FileName="../../.nuget/packages/plugin.permissions/3.0.0.12/readme.txt" Line="18" Column="1" />
+      <File FileName="WhereToEat.Android/MainActivity.cs" Line="28" Column="3" />
       <File FileName="WhereToEat Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -22,4 +25,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WhereToEat.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WhereToEat.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4D5C381-68C0-4B68-B752-54BA4BDFE6A1" />
 </Properties>

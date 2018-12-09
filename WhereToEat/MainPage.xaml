@@ -2,18 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhereToEat" x:Class="WhereToEat.MainPage">
     <StackLayout VerticalOptions="Center">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-               HorizontalOptions="Center" 
-               VerticalOptions="CenterAndExpand" />
-        <Button Clicked="searchBtn" 
-               Text="Where should we eat?"
-               
-                />
+     
         
-      <!--  <ListView
+       <ListView
             x:Name="venueList"
-            HorizontalOptions="Center">
+            HorizontalOptions="Center"
+            Margin="0,300,0,0"
+           
+            >
             <ListView.ItemTemplate>
+                <DataTemplate>
                 <ViewCell>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -24,10 +22,27 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
+                        
+                        <Label Text="{Binding name}"
+                               FontAttributes="Bold"/>
+                        <Label Grid.Row="1"
+                               Text="{Binding location.address, StringFormat='{0}'}"/>
+                        <Label Grid.Column="1"
+                               Text="{Binding location.distance, StringFormat='{0} Meters'}"/>
+                        
+                        
                     </Grid>
                 </ViewCell>
+                    </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        -->
+          <Label Text="" 
+               x:Name="lblText"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+        <Button Clicked="searchBtn" 
+               Text="Where should we eat?"
+               Margin="15,0,15,210"
+                />
     </StackLayout>
 </ContentPage>
