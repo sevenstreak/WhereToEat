@@ -1,0 +1,15 @@
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/bin/Debug/netstandard2.0/WhereToEat.deps.json
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/bin/Debug/netstandard2.0/WhereToEat.dll
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/bin/Debug/netstandard2.0/WhereToEat.pdb
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/bin/Debug/netstandard2.0/Mono.Android.dll
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/bin/Debug/netstandard2.0/Mono.Android.pdb
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.csproj.CoreCompileInputs.cache
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.AssemblyInfoInputs.cache
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.AssemblyInfo.cs
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.csproj.CopyComplete
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.dll
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.pdb
+/Users/brianherrera/Projects/WhereToEat/WhereToEat/obj/Debug/netstandard2.0/WhereToEat.csprojAssemblyReference.cache

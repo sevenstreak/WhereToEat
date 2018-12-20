@@ -1,0 +1,2 @@
+android.app.Application
+co.MeteoMark.Where_To_Eat

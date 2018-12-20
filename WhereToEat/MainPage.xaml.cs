@@ -7,6 +7,8 @@ using Xamarin.Forms;
 using Plugin.Geolocator;
 using WhereToEat.Logic;
 using WhereToEat.Model;
+using Plugin.Permissions;
+using Android;
 
 
 namespace WhereToEat
@@ -22,15 +24,7 @@ namespace WhereToEat
 
         protected override async void OnAppearing()
         {
-
-          //  base.OnAppearing();
-
-         //   var locator = CrossGeolocator.Current;
-         //   var position = await locator.GetPositionAsync();
-
-        //    var venues = await VenueLogic.GetVenues(position.Longitude, position.Latitude);
-            
-
+            base.OnAppearing();
         }
 
         async void searchBtn(object sender, System.EventArgs e)
