@@ -38,6 +38,9 @@ namespace WhereToEat
             var rdm = new Random();
             venues = venues.GetRange(rdm.Next(0,29),1);
             venueList.ItemsSource = venues;
+
+            //cellImage.Source = venues.
+
         }
     }
 }

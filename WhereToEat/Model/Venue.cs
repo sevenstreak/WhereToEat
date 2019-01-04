@@ -38,13 +38,19 @@ namespace WhereToEat.Model
         public bool primary { get; set; }
     }
 
-    public class Venue
+public class Photos
+{
+    public int count { get; set; }
+    public IList<object> groups { get; set; }
+}
+
+public class Venue
     {
         public string id { get; set; }
         public string name { get; set; }
         public Location location { get; set; }
         public IList<Category> categories { get; set; }
-
+    public Photos photos { get; set; }
     public static implicit operator List<object>(Venue v)
     {
         throw new NotImplementedException();

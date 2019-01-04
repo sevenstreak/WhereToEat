@@ -1,19 +1,16 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{57517D63-1D12-4450-9D93-966AB7D90AB8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhereToEat.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhereToEat/Model/Venue.cs">
     <Files>
-      <File FileName="WhereToEat/MainPage.xaml.cs" Line="22" Column="13" />
+      <File FileName="WhereToEat/MainPage.xaml.cs" Line="42" Column="15" />
       <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="../TravelRecordApp/TravelRecordApp/Model/Venue.cs" Line="1" Column="1" />
-      <File FileName="WhereToEat/Model/Venue.cs" Line="1" Column="1" />
-      <File FileName="WhereToEat/Helper/Constants.cs" Line="1" Column="1" />
+      <File FileName="../TravelRecordApp/TravelRecordApp/Model/Venue.cs" Line="42" Column="1" />
+      <File FileName="WhereToEat/Model/Venue.cs" Line="45" Column="2" />
+      <File FileName="WhereToEat/Helper/Constants.cs" Line="11" Column="87" />
       <File FileName="../TravelRecordApp/TravelRecordApp/Helper/Constants.cs" Line="1" Column="1" />
       <File FileName="../TravelRecordApp/TravelRecordApp/Logic/VenueLogic.cs" Line="1" Column="1" />
       <File FileName="WhereToEat/Logic/VenueLogic.cs" Line="1" Column="1" />
       <File FileName="../TravelRecordApp/TravelRecordApp/NewTravelPage.xaml" Line="1" Column="1" />
-      <File FileName="WhereToEat/MainPage.xaml" Line="5" Column="14" />
-      <File FileName="WhereToEat.Android/MainActivity.cs" Line="28" Column="1" />
-      <File FileName="../../Downloads/TravelRecordApp 4/TravelRecordApp/TravelRecordApp.Android/MainActivity.cs" Line="24" Column="13" />
-      <File FileName="WhereToEat/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="WhereToEat/MainPage.xaml" Line="39" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.WhereToEat.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4D5C381-68C0-4B68-B752-54BA4BDFE6A1" />
@@ -21,10 +18,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WhereToEat.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/brianherrera/Projects/WhereToEat/WhereToEat/App.xaml.cs" relfile="WhereToEat/App.xaml.cs" line="15" column="1" />
-      <Breakpoint file="/Users/brianherrera/Projects/WhereToEat/WhereToEat.Android/MainActivity.cs" relfile="WhereToEat.Android/MainActivity.cs" line="28" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

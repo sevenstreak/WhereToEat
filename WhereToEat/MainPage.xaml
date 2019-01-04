@@ -13,7 +13,7 @@
             HorizontalOptions="Center"
             Margin="10,100,10,0"
            BackgroundColor="Red"
-            
+           
             >
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -24,8 +24,9 @@
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         
                         <Label Text="{Binding name}"
@@ -34,6 +35,9 @@
                                Text="{Binding location.address, StringFormat='{0}'}"/>
                         <Label Grid.Column="1"
                                Text="{Binding location.distance, StringFormat='{0} Meters'}"/>
+                            
+                            <Image x:Name="cellImage" />
+                            
                         
                         
                     </Grid>
